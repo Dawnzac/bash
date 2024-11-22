@@ -48,12 +48,12 @@ show_dialog() {
     fi
 }
 
-# Reboot immediately
+
 reboot_now() {
     echo "Rebooting now..."
     shutdown -r now
 }
 
-# Main script execution
+
 schedule_reboot
 show_dialog

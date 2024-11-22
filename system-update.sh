@@ -1,12 +1,10 @@
 #!/bin/bash
 
-# Check if the script is run as root
 if [[ $EUID -ne 0 ]]; then
     echo "This script must be run as root."
     exit 1
 fi
 
-# Function to detect package manager
 detect_package_manager() {
     if command -v apt &> /dev/null; then
         PACKAGE_MANAGER="apt"
@@ -20,7 +18,6 @@ detect_package_manager() {
     fi
 }
 
-# Function to check, download, and optionally install updates using apt
 update_with_apt() {
     echo "Updating package list..."
     apt update -y
@@ -38,7 +35,6 @@ update_with_apt() {
     fi
 }
 
-# Function to check, download, and optionally install updates using yum/dnf
 update_with_yum_or_dnf() {
     echo "Checking for available updates..."
     $PACKAGE_MANAGER check-update -q
@@ -52,7 +48,6 @@ update_with_yum_or_dnf() {
     fi
 }
 
-# Main script logic
 detect_package_manager
 
 case $PACKAGE_MANAGER in
@@ -65,7 +60,6 @@ case $PACKAGE_MANAGER in
 esac
 
 
-# Optional reboot prompt
 read -p "Some updates may require a reboot. Reboot now? (y/N): " response
 if [[ "$response" =~ ^[Yy]$ ]]; then
     reboot
