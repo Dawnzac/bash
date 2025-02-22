@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if ! command -v jq &> /dev/null; then
+    echo "jq is not installed. Installing silently..."
+    sudo DEBIAN_FRONTEND=noninteractive apt-get update -yq && sudo DEBIAN_FRONTEND=noninteractive apt-get install -yq jq
+fi
+
 # Generate UUID for agent
 AGENT_ID="$(uuidgen)"
 AGENT_VERSION="1.0"
