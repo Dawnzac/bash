@@ -29,7 +29,9 @@ RAM_TOTAL_GB=$(awk '/MemTotal/ {printf "%.2f", $2/1024/1024}' /proc/meminfo || e
 RAM_TYPE="Unknown"
 
 STORAGE_TOTAL_GB=$(df -h --output=size / | tail -1 | tr -d 'G' || echo 0)
-STORAGE_INFO="[{\"type\": \"HDD/SSD\", \"capacityGB\": $STORAGE_TOTAL_GB}]"
+STORAGE_USED_GB=$(df -h --output=used / | tail -1 | tr -d 'G' || echo 0)
+STORAGE_INFO="[{\"type\": \"HDD/SSD\", \"capacityGB\": $STORAGE_TOTAL_GB, \"usedGB\": $STORAGE_USED_GB}]"
+
 
 NETWORK_INTERFACES=$(ip -json addr show | jq '[.[] | {name: .ifname, macAddress: .address, ipAddresses: [.addr_info[].local] | unique}]' 2>/dev/null || echo '[]')
 

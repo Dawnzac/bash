@@ -1,8 +1,8 @@
 {
-  "agentId": "e63051ff-7d5e-48c2-b66b-77cbee8ff3f9",
+  "agentId": "7cf9be59-1455-4ec6-baa8-896eed36b0c6",
   "agentVersion": "1.0",
-  "agentInstalledDateTime": "2025-02-22T04:40:15Z",
-  "timestamp": "2025-02-22T04:40:15Z",
+  "agentInstalledDateTime": "2025-02-22T04:50:04Z",
+  "timestamp": "2025-02-22T04:50:04Z",
   "deviceInfo": {
     "deviceName": "puppet",
     "manufacturer": "Microsoft Corporation",
@@ -28,7 +28,8 @@
       "storage": [
         {
           "type": "HDD/SSD",
-          "capacityGB": 24
+          "capacityGB": 24,
+          "usedGB": 8.3
         }
       ],
       "networkInterfaces": [
@@ -4029,7 +4030,7 @@
       },
       {
         "name": "sudo",
-        "processId": 189900,
+        "processId": 190024,
         "status": "Running"
       },
       {
@@ -4054,7 +4055,7 @@
       },
       {
         "name": "bash",
-        "processId": 189902,
+        "processId": 190026,
         "status": "Running"
       },
       {
@@ -4064,12 +4065,12 @@
       },
       {
         "name": "ps",
-        "processId": 189950,
+        "processId": 190078,
         "status": "Running"
       },
       {
         "name": "awk",
-        "processId": 189951,
+        "processId": 190079,
         "status": "Running"
       },
       {
@@ -4079,7 +4080,7 @@
       },
       {
         "name": "bash",
-        "processId": 189949,
+        "processId": 190077,
         "status": "Running"
       },
       {
@@ -4089,7 +4090,7 @@
       },
       {
         "name": "paste",
-        "processId": 189952,
+        "processId": 190080,
         "status": "Running"
       },
       {
@@ -4099,7 +4100,7 @@
       },
       {
         "name": "sudo",
-        "processId": 189901,
+        "processId": 190025,
         "status": "Running"
       },
       {
@@ -4458,24 +4459,29 @@
         "status": "Running"
       },
       {
-        "name": "kworker/u256:2-",
-        "processId": 189767,
+        "name": "kworker/u256:1-",
+        "processId": 189956,
         "status": "Running"
       },
       {
         "name": "kworker/u256:0-",
-        "processId": 189776,
+        "processId": 189958,
+        "status": "Running"
+      },
+      {
+        "name": "kworker/u256:2-",
+        "processId": 189997,
         "status": "Running"
       }
     ]
   },
   "customerInfo": {
-    "customerId": "CUST12345",
-    "customerName": "TechCorp Ltd.",
+    "customerId": "420",
+    "customerName": "Space X Ltd.",
     "customerLicenseType": "Enterprise",
     "group": {
-      "groupId": "GRP98765",
-      "groupName": "IT Department",
+      "groupId": "AEX12",
+      "groupName": "Starship",
       "agentAddedToGroupOn": "2024-01-01T12:00:00Z"
     }
   },
