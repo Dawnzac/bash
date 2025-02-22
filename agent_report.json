@@ -1,0 +1,4483 @@
+{
+  "agentId": "e63051ff-7d5e-48c2-b66b-77cbee8ff3f9",
+  "agentVersion": "1.0",
+  "agentInstalledDateTime": "2025-02-22T04:40:15Z",
+  "timestamp": "2025-02-22T04:40:15Z",
+  "deviceInfo": {
+    "deviceName": "puppet",
+    "manufacturer": "Microsoft Corporation",
+    "model": "Virtual Machine",
+    "serialNumber": "0948-9485-8426-2278-8711-7611-51",
+    "os": {
+      "name": "Linux",
+      "version": "5.15.0-130-generic",
+      "architecture": "x86_64"
+    },
+    "lastRestartedAt": "2025-01-15T06:34Z",
+    "pendingRestart": false,
+    "hardwareSpecs": {
+      "cpu": {
+        "model": "Intel(R) Xeon(R) Silver 4210 CPU @ 2.20GHz",
+        "cores": 1,
+        "clockSpeedGHz": 2.19
+      },
+      "ram": {
+        "totalGB": 1.33,
+        "type": "Unknown"
+      },
+      "storage": [
+        {
+          "type": "HDD/SSD",
+          "capacityGB": 24
+        }
+      ],
+      "networkInterfaces": [
+        {
+          "name": "lo",
+          "macAddress": "00:00:00:00:00:00",
+          "ipAddresses": [
+            "127.0.0.1",
+            "::1"
+          ]
+        },
+        {
+          "name": "eth0",
+          "macAddress": "00:15:5d:01:7f:04",
+          "ipAddresses": [
+            "172.40.1.11",
+            "fe80::215:5dff:fe01:7f04"
+          ]
+        },
+        {
+          "name": "docker0",
+          "macAddress": "02:42:50:92:f0:ff",
+          "ipAddresses": [
+            "172.17.0.1"
+          ]
+        }
+      ]
+    }
+  },
+  "softwareInfo": [
+    {
+      "name": "adduser",
+      "version": "3.118ubuntu5",
+      "scope": "Global"
+    },
+    {
+      "name": "amd64-microcode",
+      "version": "3.20191218.1ubuntu2.3",
+      "scope": "Global"
+    },
+    {
+      "name": "apparmor",
+      "version": "3.0.4-2ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "apport",
+      "version": "2.20.11-0ubuntu82.5",
+      "scope": "Global"
+    },
+    {
+      "name": "apport-symptoms",
+      "version": "0.24",
+      "scope": "Global"
+    },
+    {
+      "name": "apt",
+      "version": "2.4.11",
+      "scope": "Global"
+    },
+    {
+      "name": "apt-utils",
+      "version": "2.4.11",
+      "scope": "Global"
+    },
+    {
+      "name": "base-files",
+      "version": "12ubuntu4.6",
+      "scope": "Global"
+    },
+    {
+      "name": "base-passwd",
+      "version": "3.5.52build1",
+      "scope": "Global"
+    },
+    {
+      "name": "bash",
+      "version": "5.1-6ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "bash-completion",
+      "version": "1:2.11-5ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "bc",
+      "version": "1.07.1-3build1",
+      "scope": "Global"
+    },
+    {
+      "name": "bcache-tools",
+      "version": "1.0.8-4ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "bind9-dnsutils",
+      "version": "1:9.18.30-0ubuntu0.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "bind9-host",
+      "version": "1:9.18.30-0ubuntu0.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "bind9-libs",
+      "version": "1:9.18.30-0ubuntu0.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "binutils",
+      "version": "2.38-4ubuntu2.6",
+      "scope": "Global"
+    },
+    {
+      "name": "binutils-common",
+      "version": "2.38-4ubuntu2.6",
+      "scope": "Global"
+    },
+    {
+      "name": "binutils-x86-64-linux-gnu",
+      "version": "2.38-4ubuntu2.6",
+      "scope": "Global"
+    },
+    {
+      "name": "bolt",
+      "version": "0.9.2-1",
+      "scope": "Global"
+    },
+    {
+      "name": "bsdextrautils",
+      "version": "2.37.2-4ubuntu3.4",
+      "scope": "Global"
+    },
+    {
+      "name": "bsdutils",
+      "version": "1:2.37.2-4ubuntu3.4",
+      "scope": "Global"
+    },
+    {
+      "name": "btrfs-progs",
+      "version": "5.16.2-1",
+      "scope": "Global"
+    },
+    {
+      "name": "build-essential",
+      "version": "12.9ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "busybox-initramfs",
+      "version": "1:1.30.1-7ubuntu3.1",
+      "scope": "Global"
+    },
+    {
+      "name": "busybox-static",
+      "version": "1:1.30.1-7ubuntu3.1",
+      "scope": "Global"
+    },
+    {
+      "name": "byobu",
+      "version": "5.133-1",
+      "scope": "Global"
+    },
+    {
+      "name": "bzip2",
+      "version": "1.0.8-5build1",
+      "scope": "Global"
+    },
+    {
+      "name": "ca-certificates",
+      "version": "20240203~22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "ca-certificates-java",
+      "version": "20190909ubuntu1.2",
+      "scope": "Global"
+    },
+    {
+      "name": "cloud-guest-utils",
+      "version": "0.32-22-g45fe84a5-0ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "cloud-init",
+      "version": "23.3.3-0ubuntu0~22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "cloud-initramfs-copymods",
+      "version": "0.47ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "cloud-initramfs-dyn-netconf",
+      "version": "0.47ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "command-not-found",
+      "version": "22.04.0",
+      "scope": "Global"
+    },
+    {
+      "name": "console-setup",
+      "version": "1.205ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "console-setup-linux",
+      "version": "1.205ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "containerd.io",
+      "version": "1.7.25-1",
+      "scope": "Global"
+    },
+    {
+      "name": "coreutils",
+      "version": "8.32-4.1ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "cowsay",
+      "version": "3.03+dfsg2-8",
+      "scope": "Global"
+    },
+    {
+      "name": "cpio",
+      "version": "2.13+dfsg-7ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "cpp",
+      "version": "4:11.2.0-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "cpp-11",
+      "version": "11.4.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "cron",
+      "version": "3.0pl1-137ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "cryptsetup",
+      "version": "2:2.4.3-1ubuntu1.2",
+      "scope": "Global"
+    },
+    {
+      "name": "cryptsetup-bin",
+      "version": "2:2.4.3-1ubuntu1.2",
+      "scope": "Global"
+    },
+    {
+      "name": "cryptsetup-initramfs",
+      "version": "2:2.4.3-1ubuntu1.2",
+      "scope": "Global"
+    },
+    {
+      "name": "curl",
+      "version": "7.81.0-1ubuntu1.20",
+      "scope": "Global"
+    },
+    {
+      "name": "dash",
+      "version": "0.5.11+git20210903+057cd650a4ed-3build1",
+      "scope": "Global"
+    },
+    {
+      "name": "dbus",
+      "version": "1.12.20-2ubuntu4.1",
+      "scope": "Global"
+    },
+    {
+      "name": "dbus-user-session",
+      "version": "1.12.20-2ubuntu4.1",
+      "scope": "Global"
+    },
+    {
+      "name": "debconf",
+      "version": "1.5.79ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "debconf-i18n",
+      "version": "1.5.79ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "debianutils",
+      "version": "5.5-1ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "diffutils",
+      "version": "1:3.8-0ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "dirmngr",
+      "version": "2.2.27-3ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "distro-info",
+      "version": "1.1ubuntu0.2",
+      "scope": "Global"
+    },
+    {
+      "name": "distro-info-data",
+      "version": "0.52ubuntu0.7",
+      "scope": "Global"
+    },
+    {
+      "name": "dmeventd",
+      "version": "2:1.02.175-2.1ubuntu4",
+      "scope": "Global"
+    },
+    {
+      "name": "dmidecode",
+      "version": "3.3-3ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "dmsetup",
+      "version": "2:1.02.175-2.1ubuntu4",
+      "scope": "Global"
+    },
+    {
+      "name": "docker-buildx-plugin",
+      "version": "0.19.3-1~ubuntu.22.04~jammy",
+      "scope": "Global"
+    },
+    {
+      "name": "docker-ce",
+      "version": "5:27.5.0-1~ubuntu.22.04~jammy",
+      "scope": "Global"
+    },
+    {
+      "name": "docker-ce-cli",
+      "version": "5:27.5.0-1~ubuntu.22.04~jammy",
+      "scope": "Global"
+    },
+    {
+      "name": "docker-ce-rootless-extras",
+      "version": "5:27.5.0-1~ubuntu.22.04~jammy",
+      "scope": "Global"
+    },
+    {
+      "name": "docker-compose-plugin",
+      "version": "2.32.3-1~ubuntu.22.04~jammy",
+      "scope": "Global"
+    },
+    {
+      "name": "dosfstools",
+      "version": "4.2-1build3",
+      "scope": "Global"
+    },
+    {
+      "name": "dpkg",
+      "version": "1.21.1ubuntu2.2",
+      "scope": "Global"
+    },
+    {
+      "name": "dpkg-dev",
+      "version": "1.21.1ubuntu2.3",
+      "scope": "Global"
+    },
+    {
+      "name": "e2fsprogs",
+      "version": "1.46.5-2ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "eatmydata",
+      "version": "130-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "ed",
+      "version": "1.18-1",
+      "scope": "Global"
+    },
+    {
+      "name": "eject",
+      "version": "2.37.2-4ubuntu3.4",
+      "scope": "Global"
+    },
+    {
+      "name": "ethtool",
+      "version": "1:5.16-1",
+      "scope": "Global"
+    },
+    {
+      "name": "fakeroot",
+      "version": "1.28-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "fdisk",
+      "version": "2.37.2-4ubuntu3.4",
+      "scope": "Global"
+    },
+    {
+      "name": "file",
+      "version": "1:5.41-3ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "finalrd",
+      "version": "9build1",
+      "scope": "Global"
+    },
+    {
+      "name": "findutils",
+      "version": "4.8.0-1ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "firmware-sof-signed",
+      "version": "2.0-1ubuntu4.7",
+      "scope": "Global"
+    },
+    {
+      "name": "fontconfig-config",
+      "version": "2.13.1-4.2ubuntu5",
+      "scope": "Global"
+    },
+    {
+      "name": "fonts-dejavu-core",
+      "version": "2.37-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "fonts-ubuntu-console",
+      "version": "0.83-6ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "friendly-recovery",
+      "version": "0.2.42",
+      "scope": "Global"
+    },
+    {
+      "name": "ftp",
+      "version": "20210827-4build1",
+      "scope": "Global"
+    },
+    {
+      "name": "fuse3",
+      "version": "3.10.5-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "fwupd",
+      "version": "1.7.9-1~22.04.3",
+      "scope": "Global"
+    },
+    {
+      "name": "fwupd-signed",
+      "version": "1.51.1~22.04.1+1.4-0ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "g++",
+      "version": "4:11.2.0-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "g++-11",
+      "version": "11.4.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "gawk",
+      "version": "1:5.1.0-1ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "gcc",
+      "version": "4:11.2.0-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "gcc-11",
+      "version": "11.4.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "gcc-11-base",
+      "version": "11.4.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "gcc-12-base",
+      "version": "12.3.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "gdisk",
+      "version": "1.0.8-4build1",
+      "scope": "Global"
+    },
+    {
+      "name": "gettext-base",
+      "version": "0.21-4ubuntu4",
+      "scope": "Global"
+    },
+    {
+      "name": "gir1.2-glib-2.0",
+      "version": "1.72.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "gir1.2-packagekitglib-1.0",
+      "version": "1.2.5-2ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "git",
+      "version": "1:2.34.1-1ubuntu1.12",
+      "scope": "Global"
+    },
+    {
+      "name": "git-man",
+      "version": "1:2.34.1-1ubuntu1.12",
+      "scope": "Global"
+    },
+    {
+      "name": "gnupg",
+      "version": "2.2.27-3ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "gnupg-l10n",
+      "version": "2.2.27-3ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "gnupg-utils",
+      "version": "2.2.27-3ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "gpg",
+      "version": "2.2.27-3ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "gpg-agent",
+      "version": "2.2.27-3ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "gpg-wks-client",
+      "version": "2.2.27-3ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "gpg-wks-server",
+      "version": "2.2.27-3ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "gpgconf",
+      "version": "2.2.27-3ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "gpgsm",
+      "version": "2.2.27-3ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "gpgv",
+      "version": "2.2.27-3ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "grep",
+      "version": "3.7-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "groff-base",
+      "version": "1.22.4-8build1",
+      "scope": "Global"
+    },
+    {
+      "name": "grub-common",
+      "version": "2.06-2ubuntu7.2",
+      "scope": "Global"
+    },
+    {
+      "name": "grub-gfxpayload-lists",
+      "version": "0.7",
+      "scope": "Global"
+    },
+    {
+      "name": "grub-pc",
+      "version": "2.06-2ubuntu7.2",
+      "scope": "Global"
+    },
+    {
+      "name": "grub-pc-bin",
+      "version": "2.06-2ubuntu7.2",
+      "scope": "Global"
+    },
+    {
+      "name": "grub2-common",
+      "version": "2.06-2ubuntu7.2",
+      "scope": "Global"
+    },
+    {
+      "name": "gzip",
+      "version": "1.10-4ubuntu4.1",
+      "scope": "Global"
+    },
+    {
+      "name": "hdparm",
+      "version": "9.60+ds-1build3",
+      "scope": "Global"
+    },
+    {
+      "name": "hostname",
+      "version": "3.23ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "htop",
+      "version": "3.0.5-7build2",
+      "scope": "Global"
+    },
+    {
+      "name": "info",
+      "version": "6.8-4build1",
+      "scope": "Global"
+    },
+    {
+      "name": "init",
+      "version": "1.62",
+      "scope": "Global"
+    },
+    {
+      "name": "init-system-helpers",
+      "version": "1.62",
+      "scope": "Global"
+    },
+    {
+      "name": "initramfs-tools",
+      "version": "0.140ubuntu13.4",
+      "scope": "Global"
+    },
+    {
+      "name": "initramfs-tools-bin",
+      "version": "0.140ubuntu13.4",
+      "scope": "Global"
+    },
+    {
+      "name": "initramfs-tools-core",
+      "version": "0.140ubuntu13.4",
+      "scope": "Global"
+    },
+    {
+      "name": "install-info",
+      "version": "6.8-4build1",
+      "scope": "Global"
+    },
+    {
+      "name": "intel-microcode",
+      "version": "3.20250211.0ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "iproute2",
+      "version": "5.15.0-1ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "iptables",
+      "version": "1.8.7-1ubuntu5.2",
+      "scope": "Global"
+    },
+    {
+      "name": "iputils-ping",
+      "version": "3:20211215-1",
+      "scope": "Global"
+    },
+    {
+      "name": "iputils-tracepath",
+      "version": "3:20211215-1",
+      "scope": "Global"
+    },
+    {
+      "name": "irqbalance",
+      "version": "1.8.0-1ubuntu0.2",
+      "scope": "Global"
+    },
+    {
+      "name": "isc-dhcp-client",
+      "version": "4.4.1-2.3ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "isc-dhcp-common",
+      "version": "4.4.1-2.3ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "iso-codes",
+      "version": "4.9.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "iucode-tool",
+      "version": "2.3.1-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "java-common",
+      "version": "0.72build2",
+      "scope": "Global"
+    },
+    {
+      "name": "javascript-common",
+      "version": "11+nmu1",
+      "scope": "Global"
+    },
+    {
+      "name": "jq",
+      "version": "1.6-2.1ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "kbd",
+      "version": "2.3.0-3ubuntu4.22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "keyboard-configuration",
+      "version": "1.205ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "klibc-utils",
+      "version": "2.0.10-4ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "kmod",
+      "version": "29-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "kpartx",
+      "version": "0.8.8-1ubuntu1.22.04.4",
+      "scope": "Global"
+    },
+    {
+      "name": "landscape-common",
+      "version": "19.12-0ubuntu13",
+      "scope": "Global"
+    },
+    {
+      "name": "less",
+      "version": "590-1ubuntu0.22.04.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libacl1",
+      "version": "2.3.1-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libaio1",
+      "version": "0.3.112-13build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libalgorithm-diff-perl",
+      "version": "1.201-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libalgorithm-diff-xs-perl",
+      "version": "0.04-6build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libalgorithm-merge-perl",
+      "version": "0.08-3",
+      "scope": "Global"
+    },
+    {
+      "name": "libapparmor1",
+      "version": "3.0.4-2ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libappstream4",
+      "version": "0.15.2-2",
+      "scope": "Global"
+    },
+    {
+      "name": "libapt-pkg6.0",
+      "version": "2.4.11",
+      "scope": "Global"
+    },
+    {
+      "name": "libarchive13",
+      "version": "3.6.0-1ubuntu1.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libargon2-1",
+      "version": "0~20171227-0.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libasan6",
+      "version": "11.4.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libassuan0",
+      "version": "2.5.5-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libatasmart4",
+      "version": "0.19-5build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libatm1",
+      "version": "1:2.5.1-4build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libatomic1",
+      "version": "12.3.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libattr1",
+      "version": "1:2.5.1-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libaudit-common",
+      "version": "1:3.0.7-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libaudit1",
+      "version": "1:3.0.7-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libavahi-client3",
+      "version": "0.8-5ubuntu5.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libavahi-common-data",
+      "version": "0.8-5ubuntu5.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libavahi-common3",
+      "version": "0.8-5ubuntu5.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libbinutils",
+      "version": "2.38-4ubuntu2.6",
+      "scope": "Global"
+    },
+    {
+      "name": "libblkid1",
+      "version": "2.37.2-4ubuntu3.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libblockdev-crypto2",
+      "version": "2.26-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libblockdev-fs2",
+      "version": "2.26-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libblockdev-loop2",
+      "version": "2.26-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libblockdev-part-err2",
+      "version": "2.26-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libblockdev-part2",
+      "version": "2.26-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libblockdev-swap2",
+      "version": "2.26-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libblockdev-utils2",
+      "version": "2.26-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libblockdev2",
+      "version": "2.26-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libbpf0",
+      "version": "1:0.5.0-1ubuntu22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libbrotli1",
+      "version": "1.0.9-2build6",
+      "scope": "Global"
+    },
+    {
+      "name": "libbsd0",
+      "version": "0.11.5-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libbz2-1.0",
+      "version": "1.0.8-5build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libc-bin",
+      "version": "2.35-0ubuntu3.9",
+      "scope": "Global"
+    },
+    {
+      "name": "libc-dev-bin",
+      "version": "2.35-0ubuntu3.9",
+      "scope": "Global"
+    },
+    {
+      "name": "libc-devtools",
+      "version": "2.35-0ubuntu3.9",
+      "scope": "Global"
+    },
+    {
+      "name": "libc6",
+      "version": "2.35-0ubuntu3.9",
+      "scope": "Global"
+    },
+    {
+      "name": "libc6-dev",
+      "version": "2.35-0ubuntu3.9",
+      "scope": "Global"
+    },
+    {
+      "name": "libcap-ng0",
+      "version": "0.7.9-2.2build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libcap2",
+      "version": "1:2.44-1ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libcap2-bin",
+      "version": "1:2.44-1ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libcbor0.8",
+      "version": "0.8.0-2ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "libcc1-0",
+      "version": "12.3.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libcom-err2",
+      "version": "1.46.5-2ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libcrypt-dev",
+      "version": "1:4.4.27-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libcrypt1",
+      "version": "1:4.4.27-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libcryptsetup12",
+      "version": "2:2.4.3-1ubuntu1.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libctf-nobfd0",
+      "version": "2.38-4ubuntu2.6",
+      "scope": "Global"
+    },
+    {
+      "name": "libctf0",
+      "version": "2.38-4ubuntu2.6",
+      "scope": "Global"
+    },
+    {
+      "name": "libcups2",
+      "version": "2.4.1op1-1ubuntu4.11",
+      "scope": "Global"
+    },
+    {
+      "name": "libcurl3-gnutls",
+      "version": "7.81.0-1ubuntu1.20",
+      "scope": "Global"
+    },
+    {
+      "name": "libcurl4",
+      "version": "7.81.0-1ubuntu1.20",
+      "scope": "Global"
+    },
+    {
+      "name": "libdb5.3",
+      "version": "5.3.28+dfsg1-0.8ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "libdbus-1-3",
+      "version": "1.12.20-2ubuntu4.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libdbus-glib-1-2",
+      "version": "0.112-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libdebconfclient0",
+      "version": "0.261ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "libdeflate0",
+      "version": "1.10-2",
+      "scope": "Global"
+    },
+    {
+      "name": "libdevmapper-event1.02.1",
+      "version": "2:1.02.175-2.1ubuntu4",
+      "scope": "Global"
+    },
+    {
+      "name": "libdevmapper1.02.1",
+      "version": "2:1.02.175-2.1ubuntu4",
+      "scope": "Global"
+    },
+    {
+      "name": "libdns-export1110",
+      "version": "1:9.11.19+dfsg-2.1ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "libdpkg-perl",
+      "version": "1.21.1ubuntu2.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libdrm-common",
+      "version": "2.4.113-2~ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libdrm2",
+      "version": "2.4.113-2~ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libdw1",
+      "version": "0.186-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libeatmydata1",
+      "version": "130-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libedit2",
+      "version": "3.1-20210910-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libefiboot1",
+      "version": "37-6ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "libefivar1",
+      "version": "37-6ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "libelf1",
+      "version": "0.186-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "liberror-perl",
+      "version": "0.17029-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libestr0",
+      "version": "0.1.10-2.1build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libevdev2",
+      "version": "1.12.1+dfsg-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libevent-core-2.1-7",
+      "version": "2.1.12-stable-1build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libexpat1",
+      "version": "2.4.7-1ubuntu0.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libexpat1-dev",
+      "version": "2.4.7-1ubuntu0.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libext2fs2",
+      "version": "1.46.5-2ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libfakeroot",
+      "version": "1.28-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "libfastjson4",
+      "version": "0.99.9-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libfdisk1",
+      "version": "2.37.2-4ubuntu3.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libffi8",
+      "version": "3.4.2-4",
+      "scope": "Global"
+    },
+    {
+      "name": "libfido2-1",
+      "version": "1.10.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libfile-fcntllock-perl",
+      "version": "0.22-3build7",
+      "scope": "Global"
+    },
+    {
+      "name": "libflashrom1",
+      "version": "1.2-5build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libfontconfig1",
+      "version": "2.13.1-4.2ubuntu5",
+      "scope": "Global"
+    },
+    {
+      "name": "libfreetype6",
+      "version": "2.11.1+dfsg-1ubuntu0.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libfribidi0",
+      "version": "1.0.8-2ubuntu3.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libftdi1-2",
+      "version": "1.5-5build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libfuse3-3",
+      "version": "3.10.5-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libfwupd2",
+      "version": "1.7.9-1~22.04.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libfwupdplugin5",
+      "version": "1.7.9-1~22.04.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libgcab-1.0-0",
+      "version": "1.4-3build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libgcc-11-dev",
+      "version": "11.4.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libgcc-s1",
+      "version": "12.3.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libgcrypt20",
+      "version": "1.9.4-3ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "libgd3",
+      "version": "2.3.0-2ubuntu2.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libgdbm-compat4",
+      "version": "1.23-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libgdbm6",
+      "version": "1.23-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libgirepository-1.0-1",
+      "version": "1.72.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libglib2.0-0",
+      "version": "2.72.4-0ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libglib2.0-bin",
+      "version": "2.72.4-0ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libglib2.0-data",
+      "version": "2.72.4-0ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libgmp10",
+      "version": "2:6.2.1+dfsg-3ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "libgnutls30",
+      "version": "3.7.3-4ubuntu1.6",
+      "scope": "Global"
+    },
+    {
+      "name": "libgomp1",
+      "version": "12.3.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libgpg-error0",
+      "version": "1.43-3",
+      "scope": "Global"
+    },
+    {
+      "name": "libgpgme11",
+      "version": "1.16.0-1.2ubuntu4.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libgpm2",
+      "version": "1.20.7-10build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libgssapi-krb5-2",
+      "version": "1.19.2-2ubuntu0.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libgstreamer1.0-0",
+      "version": "1.20.3-0ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libgudev-1.0-0",
+      "version": "1:237-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libgusb2",
+      "version": "0.3.10-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libhogweed6",
+      "version": "3.7.3-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libicu70",
+      "version": "70.1-2",
+      "scope": "Global"
+    },
+    {
+      "name": "libidn2-0",
+      "version": "2.3.2-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libimobiledevice6",
+      "version": "1.3.0-6build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libinih1",
+      "version": "53-1ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "libintl-perl",
+      "version": "1.26-3build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libintl-xs-perl",
+      "version": "1.26-3build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libip4tc2",
+      "version": "1.8.7-1ubuntu5.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libip6tc2",
+      "version": "1.8.7-1ubuntu5.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libisc-export1105",
+      "version": "1:9.11.19+dfsg-2.1ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "libisl23",
+      "version": "0.24-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libisns0",
+      "version": "0.101-0ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "libitm1",
+      "version": "12.3.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libjansson4",
+      "version": "2.13.1-1.1build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libjbig0",
+      "version": "2.1-3.1ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libjcat1",
+      "version": "0.1.9-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libjpeg-turbo8",
+      "version": "2.1.2-0ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "libjpeg8",
+      "version": "8c-2ubuntu10",
+      "scope": "Global"
+    },
+    {
+      "name": "libjq1",
+      "version": "1.6-2.1ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "libjs-jquery",
+      "version": "3.6.0+dfsg+~3.5.13-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libjs-sphinxdoc",
+      "version": "4.3.2-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libjs-underscore",
+      "version": "1.13.2~dfsg-2",
+      "scope": "Global"
+    },
+    {
+      "name": "libjson-c5",
+      "version": "0.15-3~ubuntu1.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libjson-glib-1.0-0",
+      "version": "1.6.6-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libjson-glib-1.0-common",
+      "version": "1.6.6-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libk5crypto3",
+      "version": "1.19.2-2ubuntu0.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libkeyutils1",
+      "version": "1.6.1-2ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "libklibc",
+      "version": "2.0.10-4ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libkmod2",
+      "version": "29-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "libkrb5-3",
+      "version": "1.19.2-2ubuntu0.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libkrb5support0",
+      "version": "1.19.2-2ubuntu0.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libksba8",
+      "version": "1.6.0-2ubuntu0.2",
+      "scope": "Global"
+    },
+    {
+      "name": "liblcms2-2",
+      "version": "2.12~rc1-2build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libldap-2.5-0",
+      "version": "2.5.16+dfsg-0ubuntu0.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libldap-common",
+      "version": "2.5.16+dfsg-0ubuntu0.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "liblmdb0",
+      "version": "0.9.24-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "liblocale-gettext-perl",
+      "version": "1.07-4build3",
+      "scope": "Global"
+    },
+    {
+      "name": "liblsan0",
+      "version": "12.3.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libltdl7",
+      "version": "2.4.6-15build2",
+      "scope": "Global"
+    },
+    {
+      "name": "liblvm2cmd2.03",
+      "version": "2.03.11-2.1ubuntu4",
+      "scope": "Global"
+    },
+    {
+      "name": "liblz4-1",
+      "version": "1.9.3-2build2",
+      "scope": "Global"
+    },
+    {
+      "name": "liblzma5",
+      "version": "5.2.5-2ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "liblzo2-2",
+      "version": "2.10-2build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libmagic-mgc",
+      "version": "1:5.41-3ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libmagic1",
+      "version": "1:5.41-3ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libmaxminddb0",
+      "version": "1.5.2-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libmbim-glib4",
+      "version": "1.28.0-1~ubuntu20.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libmbim-proxy",
+      "version": "1.28.0-1~ubuntu20.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libmd0",
+      "version": "1.0.4-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libmm-glib0",
+      "version": "1.20.0-1~ubuntu22.04.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libmnl0",
+      "version": "1.0.4-3build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libmodule-find-perl",
+      "version": "0.15-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libmodule-scandeps-perl",
+      "version": "1.31-1ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libmount1",
+      "version": "2.37.2-4ubuntu3.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libmpc3",
+      "version": "1.2.1-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libmpdec3",
+      "version": "2.5.1-2build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libmpfr6",
+      "version": "4.1.0-3build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libmspack0",
+      "version": "0.10.1-2build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libncurses6",
+      "version": "6.3-2ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libncursesw6",
+      "version": "6.3-2ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libnetfilter-conntrack3",
+      "version": "1.0.9-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libnetplan0",
+      "version": "0.106.1-7ubuntu0.22.04.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libnettle8",
+      "version": "3.7.3-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libnewt0.52",
+      "version": "0.52.21-5ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "libnfnetlink0",
+      "version": "1.0.1-3build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libnftables1",
+      "version": "1.0.2-1ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "libnftnl11",
+      "version": "1.2.1-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libnghttp2-14",
+      "version": "1.43.0-1ubuntu0.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libnginx-mod-http-geoip2",
+      "version": "1.18.0-6ubuntu14.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libnginx-mod-http-image-filter",
+      "version": "1.18.0-6ubuntu14.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libnginx-mod-http-xslt-filter",
+      "version": "1.18.0-6ubuntu14.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libnginx-mod-mail",
+      "version": "1.18.0-6ubuntu14.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libnginx-mod-stream",
+      "version": "1.18.0-6ubuntu14.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libnginx-mod-stream-geoip2",
+      "version": "1.18.0-6ubuntu14.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libnl-3-200",
+      "version": "3.5.0-0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libnl-genl-3-200",
+      "version": "3.5.0-0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libnpth0",
+      "version": "1.6-3build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libnsl-dev",
+      "version": "1.3.0-2build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libnsl2",
+      "version": "1.3.0-2build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libnspr4",
+      "version": "2:4.35-0ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libnss-systemd",
+      "version": "249.11-0ubuntu3.12",
+      "scope": "Global"
+    },
+    {
+      "name": "libnss3",
+      "version": "2:3.98-0ubuntu0.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libntfs-3g89",
+      "version": "1:2021.8.22-3ubuntu1.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libnuma1",
+      "version": "2.0.14-3ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "libonig5",
+      "version": "6.9.7.1-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libopeniscsiusr",
+      "version": "2.1.5-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "libp11-kit0",
+      "version": "0.24.0-6build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libpackagekit-glib2-18",
+      "version": "1.2.5-2ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "libpam-cap",
+      "version": "1:2.44-1ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libpam-modules",
+      "version": "1.4.0-11ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libpam-modules-bin",
+      "version": "1.4.0-11ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libpam-runtime",
+      "version": "1.4.0-11ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libpam-systemd",
+      "version": "249.11-0ubuntu3.12",
+      "scope": "Global"
+    },
+    {
+      "name": "libpam0g",
+      "version": "1.4.0-11ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libparted-fs-resize0",
+      "version": "3.4-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libparted2",
+      "version": "3.4-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libpcap0.8",
+      "version": "1.10.1-4build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libpci3",
+      "version": "1:3.7.0-6",
+      "scope": "Global"
+    },
+    {
+      "name": "libpcre2-8-0",
+      "version": "10.39-3ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libpcre3",
+      "version": "2:8.39-13ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libpcsclite1",
+      "version": "1.9.5-3ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "libperl5.34",
+      "version": "5.34.0-3ubuntu1.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libpipeline1",
+      "version": "1.5.5-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libplist3",
+      "version": "2.2.0-6build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libplymouth5",
+      "version": "0.9.5+git20211018-1ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "libpng16-16",
+      "version": "1.6.37-3build5",
+      "scope": "Global"
+    },
+    {
+      "name": "libpolkit-agent-1-0",
+      "version": "0.105-33",
+      "scope": "Global"
+    },
+    {
+      "name": "libpolkit-gobject-1-0",
+      "version": "0.105-33",
+      "scope": "Global"
+    },
+    {
+      "name": "libpopt0",
+      "version": "1.18-3build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libproc-processtable-perl",
+      "version": "0.634-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libprocps8",
+      "version": "2:3.3.17-6ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libpsl5",
+      "version": "0.21.0-1.2build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libpython3-dev",
+      "version": "3.10.6-1~22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libpython3-stdlib",
+      "version": "3.10.6-1~22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libpython3.10",
+      "version": "3.10.12-1~22.04.9",
+      "scope": "Global"
+    },
+    {
+      "name": "libpython3.10-dev",
+      "version": "3.10.12-1~22.04.9",
+      "scope": "Global"
+    },
+    {
+      "name": "libpython3.10-minimal",
+      "version": "3.10.12-1~22.04.9",
+      "scope": "Global"
+    },
+    {
+      "name": "libpython3.10-stdlib",
+      "version": "3.10.12-1~22.04.9",
+      "scope": "Global"
+    },
+    {
+      "name": "libqmi-glib5",
+      "version": "1.32.0-1ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libqmi-proxy",
+      "version": "1.32.0-1ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libquadmath0",
+      "version": "12.3.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libreadline8",
+      "version": "8.1.2-1",
+      "scope": "Global"
+    },
+    {
+      "name": "librtmp1",
+      "version": "2.4+20151223.gitfa8646d.1-2build4",
+      "scope": "Global"
+    },
+    {
+      "name": "libsasl2-2",
+      "version": "2.1.27+dfsg2-3ubuntu1.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libsasl2-modules",
+      "version": "2.1.27+dfsg2-3ubuntu1.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libsasl2-modules-db",
+      "version": "2.1.27+dfsg2-3ubuntu1.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libseccomp2",
+      "version": "2.5.3-2ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "libselinux1",
+      "version": "3.3-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libsemanage-common",
+      "version": "3.3-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libsemanage2",
+      "version": "3.3-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libsepol2",
+      "version": "3.3-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libsgutils2-2",
+      "version": "1.46-1ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libsigsegv2",
+      "version": "2.13-1ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "libslang2",
+      "version": "2.3.2-5build4",
+      "scope": "Global"
+    },
+    {
+      "name": "libslirp0",
+      "version": "4.6.1-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libsmartcols1",
+      "version": "2.37.2-4ubuntu3.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libsmbios-c2",
+      "version": "2.4.3-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libsodium23",
+      "version": "1.0.18-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libsort-naturally-perl",
+      "version": "1.03-2",
+      "scope": "Global"
+    },
+    {
+      "name": "libsqlite3-0",
+      "version": "3.37.2-2ubuntu0.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libss2",
+      "version": "1.46.5-2ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libssh-4",
+      "version": "0.9.6-2ubuntu0.22.04.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libssl3",
+      "version": "3.0.2-0ubuntu1.19",
+      "scope": "Global"
+    },
+    {
+      "name": "libstdc++-11-dev",
+      "version": "11.4.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libstdc++6",
+      "version": "12.3.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libstemmer0d",
+      "version": "2.2.0-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libsystemd0",
+      "version": "249.11-0ubuntu3.12",
+      "scope": "Global"
+    },
+    {
+      "name": "libtasn1-6",
+      "version": "4.18.0-4ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libtcl8.6",
+      "version": "8.6.12+dfsg-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libterm-readkey-perl",
+      "version": "2.38-1build4",
+      "scope": "Global"
+    },
+    {
+      "name": "libtext-charwidth-perl",
+      "version": "0.04-10build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libtext-iconv-perl",
+      "version": "1.7-7build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libtext-wrapi18n-perl",
+      "version": "0.06-9",
+      "scope": "Global"
+    },
+    {
+      "name": "libtiff5",
+      "version": "4.3.0-6ubuntu0.10",
+      "scope": "Global"
+    },
+    {
+      "name": "libtinfo6",
+      "version": "6.3-2ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libtirpc-common",
+      "version": "1.3.2-2ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libtirpc-dev",
+      "version": "1.3.2-2ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libtirpc3",
+      "version": "1.3.2-2ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libtsan0",
+      "version": "11.4.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libtss2-esys-3.0.2-0",
+      "version": "3.2.0-1ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libtss2-mu0",
+      "version": "3.2.0-1ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libtss2-sys1",
+      "version": "3.2.0-1ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libtss2-tcti-cmd0",
+      "version": "3.2.0-1ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libtss2-tcti-device0",
+      "version": "3.2.0-1ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libtss2-tcti-mssim0",
+      "version": "3.2.0-1ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libtss2-tcti-swtpm0",
+      "version": "3.2.0-1ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libubsan1",
+      "version": "12.3.0-1ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "libuchardet0",
+      "version": "0.0.7-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libudev1",
+      "version": "249.11-0ubuntu3.12",
+      "scope": "Global"
+    },
+    {
+      "name": "libudisks2-0",
+      "version": "2.9.4-1ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "libunistring2",
+      "version": "1.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libunwind8",
+      "version": "1.3.2-2build2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libupower-glib3",
+      "version": "0.99.17-1",
+      "scope": "Global"
+    },
+    {
+      "name": "liburcu8",
+      "version": "0.13.1-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libusb-1.0-0",
+      "version": "2:1.0.25-1ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "libusbmuxd6",
+      "version": "2.0.2-3build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libutempter0",
+      "version": "1.2.1-2build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libuuid1",
+      "version": "2.37.2-4ubuntu3.4",
+      "scope": "Global"
+    },
+    {
+      "name": "libuv1",
+      "version": "1.43.0-1ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libvolume-key1",
+      "version": "0.3.12-3.1build3",
+      "scope": "Global"
+    },
+    {
+      "name": "libwebp7",
+      "version": "1.2.2-2ubuntu0.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libwrap0",
+      "version": "7.6.q-31build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libx11-6",
+      "version": "2:1.7.5-1ubuntu0.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libx11-data",
+      "version": "2:1.7.5-1ubuntu0.3",
+      "scope": "Global"
+    },
+    {
+      "name": "libxau6",
+      "version": "1:1.0.9-1build5",
+      "scope": "Global"
+    },
+    {
+      "name": "libxcb1",
+      "version": "1.14-3ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "libxdmcp6",
+      "version": "1:1.1.3-0ubuntu5",
+      "scope": "Global"
+    },
+    {
+      "name": "libxext6",
+      "version": "2:1.3.4-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libxi6",
+      "version": "2:1.8-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libxml2",
+      "version": "2.9.13+dfsg-1ubuntu0.5",
+      "scope": "Global"
+    },
+    {
+      "name": "libxmlb2",
+      "version": "0.3.6-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "libxmlsec1",
+      "version": "1.2.33-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libxmlsec1-openssl",
+      "version": "1.2.33-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libxmuu1",
+      "version": "2:1.1.3-3",
+      "scope": "Global"
+    },
+    {
+      "name": "libxpm4",
+      "version": "1:3.5.12-1ubuntu0.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libxrender1",
+      "version": "1:0.9.10-1build4",
+      "scope": "Global"
+    },
+    {
+      "name": "libxslt1.1",
+      "version": "1.1.34-4ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "libxtables12",
+      "version": "1.8.7-1ubuntu5.2",
+      "scope": "Global"
+    },
+    {
+      "name": "libxtst6",
+      "version": "2:1.2.3-1build4",
+      "scope": "Global"
+    },
+    {
+      "name": "libxxhash0",
+      "version": "0.8.1-1",
+      "scope": "Global"
+    },
+    {
+      "name": "libyaml-0-2",
+      "version": "0.2.2-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "libzstd1",
+      "version": "1.4.8+dfsg-3build1",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-base",
+      "version": "4.5ubuntu9",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-firmware",
+      "version": "20220329.git681281e4-0ubuntu3.35",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-generic",
+      "version": "5.15.0.131.129",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-headers-5.15.0-130",
+      "version": "5.15.0-130.140",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-headers-5.15.0-130-generic",
+      "version": "5.15.0-130.140",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-headers-5.15.0-131",
+      "version": "5.15.0-131.141",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-headers-5.15.0-131-generic",
+      "version": "5.15.0-131.141",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-headers-generic",
+      "version": "5.15.0.131.129",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-image-5.15.0-124-generic",
+      "version": "5.15.0-124.134",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-image-5.15.0-125-generic",
+      "version": "5.15.0-125.135",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-image-5.15.0-127-generic",
+      "version": "5.15.0-127.137",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-image-5.15.0-130-generic",
+      "version": "5.15.0-130.140",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-image-5.15.0-131-generic",
+      "version": "5.15.0-131.141",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-image-generic",
+      "version": "5.15.0.131.129",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-libc-dev",
+      "version": "5.15.0-131.141",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-modules-5.15.0-124-generic",
+      "version": "5.15.0-124.134",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-modules-5.15.0-125-generic",
+      "version": "5.15.0-125.135",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-modules-5.15.0-127-generic",
+      "version": "5.15.0-127.137",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-modules-5.15.0-130-generic",
+      "version": "5.15.0-130.140",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-modules-5.15.0-131-generic",
+      "version": "5.15.0-131.141",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-modules-extra-5.15.0-124-generic",
+      "version": "5.15.0-124.134",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-modules-extra-5.15.0-125-generic",
+      "version": "5.15.0-125.135",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-modules-extra-5.15.0-127-generic",
+      "version": "5.15.0-127.137",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-modules-extra-5.15.0-130-generic",
+      "version": "5.15.0-130.140",
+      "scope": "Global"
+    },
+    {
+      "name": "linux-modules-extra-5.15.0-131-generic",
+      "version": "5.15.0-131.141",
+      "scope": "Global"
+    },
+    {
+      "name": "locales",
+      "version": "2.35-0ubuntu3.9",
+      "scope": "Global"
+    },
+    {
+      "name": "login",
+      "version": "1:4.8.1-2ubuntu2.2",
+      "scope": "Global"
+    },
+    {
+      "name": "logrotate",
+      "version": "3.19.0-1ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "logsave",
+      "version": "1.46.5-2ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "lsb-base",
+      "version": "11.1.0ubuntu4",
+      "scope": "Global"
+    },
+    {
+      "name": "lsb-release",
+      "version": "11.1.0ubuntu4",
+      "scope": "Global"
+    },
+    {
+      "name": "lshw",
+      "version": "02.19.git.2021.06.19.996aaad9c7-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "lsof",
+      "version": "4.93.2+dfsg-1.1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "lto-disabled-list",
+      "version": "24",
+      "scope": "Global"
+    },
+    {
+      "name": "lvm2",
+      "version": "2.03.11-2.1ubuntu4",
+      "scope": "Global"
+    },
+    {
+      "name": "lxd-agent-loader",
+      "version": "0.5",
+      "scope": "Global"
+    },
+    {
+      "name": "make",
+      "version": "4.3-4.1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "man-db",
+      "version": "2.10.2-1",
+      "scope": "Global"
+    },
+    {
+      "name": "manpages",
+      "version": "5.10-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "manpages-dev",
+      "version": "5.10-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "mawk",
+      "version": "1.3.4.20200120-3",
+      "scope": "Global"
+    },
+    {
+      "name": "mdadm",
+      "version": "4.2-0ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "media-types",
+      "version": "7.0.0",
+      "scope": "Global"
+    },
+    {
+      "name": "modemmanager",
+      "version": "1.20.0-1~ubuntu22.04.3",
+      "scope": "Global"
+    },
+    {
+      "name": "motd-news-config",
+      "version": "12ubuntu4.6",
+      "scope": "Global"
+    },
+    {
+      "name": "mount",
+      "version": "2.37.2-4ubuntu3.4",
+      "scope": "Global"
+    },
+    {
+      "name": "mtr-tiny",
+      "version": "0.95-1",
+      "scope": "Global"
+    },
+    {
+      "name": "multipath-tools",
+      "version": "0.8.8-1ubuntu1.22.04.4",
+      "scope": "Global"
+    },
+    {
+      "name": "nano",
+      "version": "6.2-1ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "ncurses-base",
+      "version": "6.3-2ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "ncurses-bin",
+      "version": "6.3-2ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "ncurses-term",
+      "version": "6.3-2ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "needrestart",
+      "version": "3.5-5ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "net-tools",
+      "version": "1.60+git20181103.0eebece-1ubuntu5",
+      "scope": "Global"
+    },
+    {
+      "name": "netbase",
+      "version": "6.3",
+      "scope": "Global"
+    },
+    {
+      "name": "netcat-openbsd",
+      "version": "1.218-4ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "netplan.io",
+      "version": "0.106.1-7ubuntu0.22.04.4",
+      "scope": "Global"
+    },
+    {
+      "name": "networkd-dispatcher",
+      "version": "2.1-2ubuntu0.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "nftables",
+      "version": "1.0.2-1ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "nginx",
+      "version": "1.18.0-6ubuntu14.5",
+      "scope": "Global"
+    },
+    {
+      "name": "nginx-common",
+      "version": "1.18.0-6ubuntu14.5",
+      "scope": "Global"
+    },
+    {
+      "name": "nginx-core",
+      "version": "1.18.0-6ubuntu14.5",
+      "scope": "Global"
+    },
+    {
+      "name": "ntfs-3g",
+      "version": "1:2021.8.22-3ubuntu1.2",
+      "scope": "Global"
+    },
+    {
+      "name": "open-iscsi",
+      "version": "2.1.5-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "open-vm-tools",
+      "version": "2:12.3.5-3~ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "openjdk-8-jre-headless",
+      "version": "8u442-b06~us1-0ubuntu1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "openssh-client",
+      "version": "1:8.9p1-3ubuntu0.11",
+      "scope": "Global"
+    },
+    {
+      "name": "openssh-server",
+      "version": "1:8.9p1-3ubuntu0.11",
+      "scope": "Global"
+    },
+    {
+      "name": "openssh-sftp-server",
+      "version": "1:8.9p1-3ubuntu0.11",
+      "scope": "Global"
+    },
+    {
+      "name": "openssl",
+      "version": "3.0.2-0ubuntu1.19",
+      "scope": "Global"
+    },
+    {
+      "name": "os-prober",
+      "version": "1.79ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "overlayroot",
+      "version": "0.47ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "packagekit",
+      "version": "1.2.5-2ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "packagekit-tools",
+      "version": "1.2.5-2ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "parted",
+      "version": "3.4-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "passwd",
+      "version": "1:4.8.1-2ubuntu2.2",
+      "scope": "Global"
+    },
+    {
+      "name": "pastebinit",
+      "version": "1.5.1-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "patch",
+      "version": "2.7.6-7build2",
+      "scope": "Global"
+    },
+    {
+      "name": "pci.ids",
+      "version": "0.0~2022.01.22-1",
+      "scope": "Global"
+    },
+    {
+      "name": "pciutils",
+      "version": "1:3.7.0-6",
+      "scope": "Global"
+    },
+    {
+      "name": "perl",
+      "version": "5.34.0-3ubuntu1.3",
+      "scope": "Global"
+    },
+    {
+      "name": "perl-base",
+      "version": "5.34.0-3ubuntu1.3",
+      "scope": "Global"
+    },
+    {
+      "name": "perl-modules-5.34",
+      "version": "5.34.0-3ubuntu1.3",
+      "scope": "Global"
+    },
+    {
+      "name": "pigz",
+      "version": "2.6-1",
+      "scope": "Global"
+    },
+    {
+      "name": "pinentry-curses",
+      "version": "1.1.1-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "pkexec",
+      "version": "0.105-33",
+      "scope": "Global"
+    },
+    {
+      "name": "plymouth",
+      "version": "0.9.5+git20211018-1ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "plymouth-theme-ubuntu-text",
+      "version": "0.9.5+git20211018-1ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "policykit-1",
+      "version": "0.105-33",
+      "scope": "Global"
+    },
+    {
+      "name": "polkitd",
+      "version": "0.105-33",
+      "scope": "Global"
+    },
+    {
+      "name": "pollinate",
+      "version": "4.33-3ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "powermgmt-base",
+      "version": "1.36",
+      "scope": "Global"
+    },
+    {
+      "name": "procps",
+      "version": "2:3.3.17-6ubuntu2.1",
+      "scope": "Global"
+    },
+    {
+      "name": "psmisc",
+      "version": "23.4-2build3",
+      "scope": "Global"
+    },
+    {
+      "name": "publicsuffix",
+      "version": "20211207.1025-1",
+      "scope": "Global"
+    },
+    {
+      "name": "puppet-agent",
+      "version": "7.33.0-1focal",
+      "scope": "Global"
+    },
+    {
+      "name": "puppet7-release",
+      "version": "7.0.0-20focal",
+      "scope": "Global"
+    },
+    {
+      "name": "puppetserver",
+      "version": "7.17.2-1focal",
+      "scope": "Global"
+    },
+    {
+      "name": "python-apt-common",
+      "version": "2.4.0ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "python-babel-localedata",
+      "version": "2.8.0+dfsg.1-7",
+      "scope": "Global"
+    },
+    {
+      "name": "python3",
+      "version": "3.10.6-1~22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-apport",
+      "version": "2.20.11-0ubuntu82.5",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-apt",
+      "version": "2.4.0ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-attr",
+      "version": "21.2.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-automat",
+      "version": "20.2.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-babel",
+      "version": "2.8.0+dfsg.1-7",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-bcrypt",
+      "version": "3.2.0-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-blinker",
+      "version": "1.4+dfsg1-0.4",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-certifi",
+      "version": "2020.6.20-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-cffi-backend",
+      "version": "1.15.0-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-chardet",
+      "version": "4.0.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-click",
+      "version": "8.0.3-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-colorama",
+      "version": "0.4.4-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-commandnotfound",
+      "version": "22.04.0",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-configobj",
+      "version": "5.0.6-5ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-constantly",
+      "version": "15.1.0-2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-cryptography",
+      "version": "3.4.8-1ubuntu2.2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-dbus",
+      "version": "1.2.18-3build1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-debconf",
+      "version": "1.5.79ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-debian",
+      "version": "0.1.43ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-dev",
+      "version": "3.10.6-1~22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-distro",
+      "version": "1.7.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-distro-info",
+      "version": "1.1ubuntu0.2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-distupgrade",
+      "version": "1:22.04.19",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-distutils",
+      "version": "3.10.8-1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-gdbm",
+      "version": "3.10.8-1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-gi",
+      "version": "3.42.1-0ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-hamcrest",
+      "version": "2.0.2-2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-httplib2",
+      "version": "0.20.2-2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-hyperlink",
+      "version": "21.0.0-3",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-idna",
+      "version": "3.3-1ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-importlib-metadata",
+      "version": "4.6.4-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-incremental",
+      "version": "21.3.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-jeepney",
+      "version": "0.7.1-3",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-jinja2",
+      "version": "3.0.3-1ubuntu0.3",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-json-pointer",
+      "version": "2.0-0ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-jsonpatch",
+      "version": "1.32-2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-jsonschema",
+      "version": "3.2.0-0ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-jwt",
+      "version": "2.3.0-1ubuntu0.2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-keyring",
+      "version": "23.5.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-launchpadlib",
+      "version": "1.10.16-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-lazr.restfulclient",
+      "version": "0.14.4-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-lazr.uri",
+      "version": "1.0.6-2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-lib2to3",
+      "version": "3.10.8-1~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-magic",
+      "version": "2:0.4.24-2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-markupsafe",
+      "version": "2.0.1-2build1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-minimal",
+      "version": "3.10.6-1~22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-more-itertools",
+      "version": "8.10.0-2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-netifaces",
+      "version": "0.11.0-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-newt",
+      "version": "0.52.21-5ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-oauthlib",
+      "version": "3.2.0-1ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-openssl",
+      "version": "21.0.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-pexpect",
+      "version": "4.8.0-2ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-pip",
+      "version": "22.0.2+dfsg-1ubuntu0.5",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-pkg-resources",
+      "version": "59.6.0-1.2ubuntu0.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-problem-report",
+      "version": "2.20.11-0ubuntu82.5",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-ptyprocess",
+      "version": "0.7.0-3",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-pyasn1",
+      "version": "0.4.8-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-pyasn1-modules",
+      "version": "0.2.1-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-pyparsing",
+      "version": "2.4.7-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-pyrsistent",
+      "version": "0.18.1-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-requests",
+      "version": "2.25.1+dfsg-2ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-secretstorage",
+      "version": "3.3.1-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-serial",
+      "version": "3.5-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-service-identity",
+      "version": "18.1.0-6",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-setuptools",
+      "version": "59.6.0-1.2ubuntu0.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-six",
+      "version": "1.16.0-3ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-software-properties",
+      "version": "0.99.22.9",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-systemd",
+      "version": "234-3ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-twisted",
+      "version": "22.1.0-2ubuntu2.6",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-tz",
+      "version": "2022.1-1ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-update-manager",
+      "version": "1:22.04.18",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-urllib3",
+      "version": "1.26.5-1~exp1ubuntu0.2",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-wadllib",
+      "version": "1.3.6-1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-wheel",
+      "version": "0.37.1-2ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-xkit",
+      "version": "0.5.0ubuntu5",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-yaml",
+      "version": "5.4.1-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-zipp",
+      "version": "1.0.0-3ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3-zope.interface",
+      "version": "5.4.0-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "python3.10",
+      "version": "3.10.12-1~22.04.9",
+      "scope": "Global"
+    },
+    {
+      "name": "python3.10-dev",
+      "version": "3.10.12-1~22.04.9",
+      "scope": "Global"
+    },
+    {
+      "name": "python3.10-minimal",
+      "version": "3.10.12-1~22.04.9",
+      "scope": "Global"
+    },
+    {
+      "name": "readline-common",
+      "version": "8.1.2-1",
+      "scope": "Global"
+    },
+    {
+      "name": "rpcsvc-proto",
+      "version": "1.4.2-0ubuntu6",
+      "scope": "Global"
+    },
+    {
+      "name": "rsync",
+      "version": "3.2.7-0ubuntu0.22.04.4",
+      "scope": "Global"
+    },
+    {
+      "name": "rsyslog",
+      "version": "8.2112.0-2ubuntu2.2",
+      "scope": "Global"
+    },
+    {
+      "name": "run-one",
+      "version": "1.17-0ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "sbsigntool",
+      "version": "0.9.4-2ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "screen",
+      "version": "4.9.0-1",
+      "scope": "Global"
+    },
+    {
+      "name": "secureboot-db",
+      "version": "1.8",
+      "scope": "Global"
+    },
+    {
+      "name": "sed",
+      "version": "4.8-1ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "sensible-utils",
+      "version": "0.0.17",
+      "scope": "Global"
+    },
+    {
+      "name": "sg3-utils",
+      "version": "1.46-1ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "sg3-utils-udev",
+      "version": "1.46-1ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "shared-mime-info",
+      "version": "2.1-2",
+      "scope": "Global"
+    },
+    {
+      "name": "slirp4netns",
+      "version": "1.0.1-2",
+      "scope": "Global"
+    },
+    {
+      "name": "snapd",
+      "version": "2.63+22.04ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "software-properties-common",
+      "version": "0.99.22.9",
+      "scope": "Global"
+    },
+    {
+      "name": "sosreport",
+      "version": "4.5.6-0ubuntu1~22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "squashfs-tools",
+      "version": "1:4.5-3build1",
+      "scope": "Global"
+    },
+    {
+      "name": "ssh-import-id",
+      "version": "5.11-0ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "strace",
+      "version": "5.16-0ubuntu3",
+      "scope": "Global"
+    },
+    {
+      "name": "sudo",
+      "version": "1.9.9-1ubuntu2.4",
+      "scope": "Global"
+    },
+    {
+      "name": "systemd",
+      "version": "249.11-0ubuntu3.12",
+      "scope": "Global"
+    },
+    {
+      "name": "systemd-hwe-hwdb",
+      "version": "249.11.5",
+      "scope": "Global"
+    },
+    {
+      "name": "systemd-sysv",
+      "version": "249.11-0ubuntu3.12",
+      "scope": "Global"
+    },
+    {
+      "name": "systemd-timesyncd",
+      "version": "249.11-0ubuntu3.12",
+      "scope": "Global"
+    },
+    {
+      "name": "sysvinit-utils",
+      "version": "3.01-1ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "tar",
+      "version": "1.34+dfsg-1ubuntu0.1.22.04.2",
+      "scope": "Global"
+    },
+    {
+      "name": "tcl",
+      "version": "8.6.11+1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "tcl8.6",
+      "version": "8.6.12+dfsg-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "tcpdump",
+      "version": "4.99.1-3ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "telnet",
+      "version": "0.17-44build1",
+      "scope": "Global"
+    },
+    {
+      "name": "thermald",
+      "version": "2.4.9-1ubuntu0.4",
+      "scope": "Global"
+    },
+    {
+      "name": "thin-provisioning-tools",
+      "version": "0.9.0-2ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "time",
+      "version": "1.9-0.1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "tmux",
+      "version": "3.2a-4ubuntu0.2",
+      "scope": "Global"
+    },
+    {
+      "name": "tnftp",
+      "version": "20210827-4build1",
+      "scope": "Global"
+    },
+    {
+      "name": "tpm-udev",
+      "version": "0.6",
+      "scope": "Global"
+    },
+    {
+      "name": "tzdata",
+      "version": "2024b-0ubuntu0.22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "ubuntu-advantage-tools",
+      "version": "30~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "ubuntu-drivers-common",
+      "version": "1:0.9.6.2~0.22.04.8",
+      "scope": "Global"
+    },
+    {
+      "name": "ubuntu-keyring",
+      "version": "2021.03.26",
+      "scope": "Global"
+    },
+    {
+      "name": "ubuntu-minimal",
+      "version": "1.481.1",
+      "scope": "Global"
+    },
+    {
+      "name": "ubuntu-pro-client-l10n",
+      "version": "30~22.04",
+      "scope": "Global"
+    },
+    {
+      "name": "ubuntu-release-upgrader-core",
+      "version": "1:22.04.19",
+      "scope": "Global"
+    },
+    {
+      "name": "ubuntu-server",
+      "version": "1.481.1",
+      "scope": "Global"
+    },
+    {
+      "name": "ubuntu-server-minimal",
+      "version": "1.481.1",
+      "scope": "Global"
+    },
+    {
+      "name": "ubuntu-standard",
+      "version": "1.481.1",
+      "scope": "Global"
+    },
+    {
+      "name": "ucf",
+      "version": "3.0043",
+      "scope": "Global"
+    },
+    {
+      "name": "udev",
+      "version": "249.11-0ubuntu3.12",
+      "scope": "Global"
+    },
+    {
+      "name": "udisks2",
+      "version": "2.9.4-1ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "ufw",
+      "version": "0.36.1-4ubuntu0.1",
+      "scope": "Global"
+    },
+    {
+      "name": "unattended-upgrades",
+      "version": "2.8ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "update-manager-core",
+      "version": "1:22.04.18",
+      "scope": "Global"
+    },
+    {
+      "name": "update-notifier-common",
+      "version": "3.192.54.6",
+      "scope": "Global"
+    },
+    {
+      "name": "upower",
+      "version": "0.99.17-1",
+      "scope": "Global"
+    },
+    {
+      "name": "usb-modeswitch",
+      "version": "2.6.1-3ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "usb-modeswitch-data",
+      "version": "20191128-4",
+      "scope": "Global"
+    },
+    {
+      "name": "usb.ids",
+      "version": "2022.04.02-1",
+      "scope": "Global"
+    },
+    {
+      "name": "usbmuxd",
+      "version": "1.1.1-2build2",
+      "scope": "Global"
+    },
+    {
+      "name": "usbutils",
+      "version": "1:014-1build1",
+      "scope": "Global"
+    },
+    {
+      "name": "usrmerge",
+      "version": "25ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "util-linux",
+      "version": "2.37.2-4ubuntu3.4",
+      "scope": "Global"
+    },
+    {
+      "name": "uuid-runtime",
+      "version": "2.37.2-4ubuntu3.4",
+      "scope": "Global"
+    },
+    {
+      "name": "vim",
+      "version": "2:8.2.3995-1ubuntu2.23",
+      "scope": "Global"
+    },
+    {
+      "name": "vim-common",
+      "version": "2:8.2.3995-1ubuntu2.23",
+      "scope": "Global"
+    },
+    {
+      "name": "vim-runtime",
+      "version": "2:8.2.3995-1ubuntu2.23",
+      "scope": "Global"
+    },
+    {
+      "name": "vim-tiny",
+      "version": "2:8.2.3995-1ubuntu2.23",
+      "scope": "Global"
+    },
+    {
+      "name": "wget",
+      "version": "1.21.2-2ubuntu1.1",
+      "scope": "Global"
+    },
+    {
+      "name": "whiptail",
+      "version": "0.52.21-5ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "wireless-regdb",
+      "version": "2022.06.06-0ubuntu1~22.04.1",
+      "scope": "Global"
+    },
+    {
+      "name": "x11-common",
+      "version": "1:7.7+23ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "xauth",
+      "version": "1:1.1-1build2",
+      "scope": "Global"
+    },
+    {
+      "name": "xdg-user-dirs",
+      "version": "0.17-2ubuntu4",
+      "scope": "Global"
+    },
+    {
+      "name": "xfsprogs",
+      "version": "5.13.0-1ubuntu2",
+      "scope": "Global"
+    },
+    {
+      "name": "xkb-data",
+      "version": "2.33-1",
+      "scope": "Global"
+    },
+    {
+      "name": "xxd",
+      "version": "2:8.2.3995-1ubuntu2.23",
+      "scope": "Global"
+    },
+    {
+      "name": "xz-utils",
+      "version": "5.2.5-2ubuntu1",
+      "scope": "Global"
+    },
+    {
+      "name": "zerofree",
+      "version": "1.1.1-1build3",
+      "scope": "Global"
+    },
+    {
+      "name": "zlib1g",
+      "version": "1:1.2.11.dfsg-2ubuntu9.2",
+      "scope": "Global"
+    },
+    {
+      "name": "zlib1g-dev",
+      "version": "1:1.2.11.dfsg-2ubuntu9.2",
+      "scope": "Global"
+    },
+    {
+      "name": "zstd",
+      "version": "1.4.8+dfsg-3build1",
+      "scope": "Global"
+    }
+  ],
+  "loggedInUsers": [
+    {
+      "username": "ppm",
+      "loginTime": "SatTFebZ",
+      "logoutTime": "22T04:17:26Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "SatTFebZ",
+      "logoutTime": "22T04:00:59Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "FriTFebZ",
+      "logoutTime": "21T04:00:20Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "ThuTFebZ",
+      "logoutTime": "20T09:47:06Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "TueTFebZ",
+      "logoutTime": "18T09:35:41Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-130-generTWedZ",
+      "logoutTime": "JanT15Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "WedTJanZ",
+      "logoutTime": "15T03:16:18Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-130-generTWedZ",
+      "logoutTime": "JanT8Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-130-generTWedZ",
+      "logoutTime": "JanT8Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-130-generTWedZ",
+      "logoutTime": "JanT8Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-127-generTTueZ",
+      "logoutTime": "DecT31Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-127-generTTueZ",
+      "logoutTime": "DecT31Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "FriTDecZ",
+      "logoutTime": "13T04:27:42Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "TueTDecZ",
+      "logoutTime": "10T09:52:20Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-125-generTTueZ",
+      "logoutTime": "NovT26Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-125-generTThuZ",
+      "logoutTime": "NovT21Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-125-generTFriZ",
+      "logoutTime": "NovT15Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "FriTNovZ",
+      "logoutTime": "8T07:48:05Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-124-generTFriZ",
+      "logoutTime": "NovT8Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "FriTNovZ",
+      "logoutTime": "8T07:08:41Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-124-generTMonZ",
+      "logoutTime": "NovT4Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-124-generTMonZ",
+      "logoutTime": "NovT4Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "FriTOctZ",
+      "logoutTime": "25T10:06:25Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "WedTOctZ",
+      "logoutTime": "23T03:17:59Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "TueTOctZ",
+      "logoutTime": "22T09:08:23Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "TueTOctZ",
+      "logoutTime": "22T05:36:38Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "TueTOctZ",
+      "logoutTime": "22T05:14:20Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "TueTOctZ",
+      "logoutTime": "22T05:14:09Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "TueTOctZ",
+      "logoutTime": "22T04:57:01Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "ppm",
+      "loginTime": "OctT22Z",
+      "logoutTime": "04:54:59T2024Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "reboot",
+      "loginTime": "5.15.0-124-generTTueZ",
+      "logoutTime": "OctT22Z",
+      "sessionType": "Console"
+    },
+    {
+      "username": "",
+      "loginTime": "TZ",
+      "logoutTime": null,
+      "sessionType": "Console"
+    },
+    {
+      "username": "wtmp",
+      "loginTime": "OctT22Z",
+      "logoutTime": "04:43:42T2024Z",
+      "sessionType": "Console"
+    }
+  ],
+  "runningApplications": {
+    "applicationList": [
+      {
+        "name": "puppet",
+        "processId": 180692,
+        "status": "Running"
+      },
+      {
+        "name": "containerd",
+        "processId": 180710,
+        "status": "Running"
+      },
+      {
+        "name": "multipathd",
+        "processId": 180654,
+        "status": "Running"
+      },
+      {
+        "name": "dockerd",
+        "processId": 746,
+        "status": "Running"
+      },
+      {
+        "name": "systemd-journal",
+        "processId": 180676,
+        "status": "Running"
+      },
+      {
+        "name": "snapd",
+        "processId": 664,
+        "status": "Running"
+      },
+      {
+        "name": "packagekitd",
+        "processId": 180656,
+        "status": "Running"
+      },
+      {
+        "name": "systemd-resolve",
+        "processId": 180722,
+        "status": "Running"
+      },
+      {
+        "name": "systemd",
+        "processId": 1,
+        "status": "Running"
+      },
+      {
+        "name": "sshd",
+        "processId": 189363,
+        "status": "Running"
+      },
+      {
+        "name": "sshd",
+        "processId": 189224,
+        "status": "Running"
+      },
+      {
+        "name": "systemd",
+        "processId": 189098,
+        "status": "Running"
+      },
+      {
+        "name": "udisksd",
+        "processId": 180678,
+        "status": "Running"
+      },
+      {
+        "name": "sshd",
+        "processId": 189283,
+        "status": "Running"
+      },
+      {
+        "name": "sshd",
+        "processId": 189421,
+        "status": "Running"
+      },
+      {
+        "name": "unattended-upgr",
+        "processId": 708,
+        "status": "Running"
+      },
+      {
+        "name": "sshd",
+        "processId": 179564,
+        "status": "Running"
+      },
+      {
+        "name": "networkd-dispat",
+        "processId": 656,
+        "status": "Running"
+      },
+      {
+        "name": "systemd-network",
+        "processId": 180720,
+        "status": "Running"
+      },
+      {
+        "name": "upowerd",
+        "processId": 180652,
+        "status": "Running"
+      },
+      {
+        "name": "ModemManager",
+        "processId": 180696,
+        "status": "Running"
+      },
+      {
+        "name": "systemd-timesyn",
+        "processId": 180673,
+        "status": "Running"
+      },
+      {
+        "name": "systemd-logind",
+        "processId": 666,
+        "status": "Running"
+      },
+      {
+        "name": "systemd-udevd",
+        "processId": 180719,
+        "status": "Running"
+      },
+      {
+        "name": "bash",
+        "processId": 189422,
+        "status": "Running"
+      },
+      {
+        "name": "sftp-server",
+        "processId": 189284,
+        "status": "Running"
+      },
+      {
+        "name": "sudo",
+        "processId": 189900,
+        "status": "Running"
+      },
+      {
+        "name": "polkitd",
+        "processId": 180691,
+        "status": "Running"
+      },
+      {
+        "name": "(sd-pam)",
+        "processId": 189099,
+        "status": "Running"
+      },
+      {
+        "name": "rsyslogd",
+        "processId": 180677,
+        "status": "Running"
+      },
+      {
+        "name": "dbus-daemon",
+        "processId": 647,
+        "status": "Running"
+      },
+      {
+        "name": "bash",
+        "processId": 189902,
+        "status": "Running"
+      },
+      {
+        "name": "nginx",
+        "processId": 180713,
+        "status": "Running"
+      },
+      {
+        "name": "ps",
+        "processId": 189950,
+        "status": "Running"
+      },
+      {
+        "name": "awk",
+        "processId": 189951,
+        "status": "Running"
+      },
+      {
+        "name": "cron",
+        "processId": 180651,
+        "status": "Running"
+      },
+      {
+        "name": "bash",
+        "processId": 189949,
+        "status": "Running"
+      },
+      {
+        "name": "nginx",
+        "processId": 180712,
+        "status": "Running"
+      },
+      {
+        "name": "paste",
+        "processId": 189952,
+        "status": "Running"
+      },
+      {
+        "name": "agetty",
+        "processId": 674,
+        "status": "Running"
+      },
+      {
+        "name": "sudo",
+        "processId": 189901,
+        "status": "Running"
+      },
+      {
+        "name": "kthreadd",
+        "processId": 2,
+        "status": "Running"
+      },
+      {
+        "name": "rcu_gp",
+        "processId": 3,
+        "status": "Running"
+      },
+      {
+        "name": "rcu_par_gp",
+        "processId": 4,
+        "status": "Running"
+      },
+      {
+        "name": "slub_flushwq",
+        "processId": 5,
+        "status": "Running"
+      },
+      {
+        "name": "netns",
+        "processId": 6,
+        "status": "Running"
+      },
+      {
+        "name": "kworker/0:0H-ev",
+        "processId": 8,
+        "status": "Running"
+      },
+      {
+        "name": "mm_percpu_wq",
+        "processId": 10,
+        "status": "Running"
+      },
+      {
+        "name": "rcu_tasks_rude_",
+        "processId": 11,
+        "status": "Running"
+      },
+      {
+        "name": "rcu_tasks_trace",
+        "processId": 12,
+        "status": "Running"
+      },
+      {
+        "name": "ksoftirqd/0",
+        "processId": 13,
+        "status": "Running"
+      },
+      {
+        "name": "rcu_sched",
+        "processId": 14,
+        "status": "Running"
+      },
+      {
+        "name": "migration/0",
+        "processId": 15,
+        "status": "Running"
+      },
+      {
+        "name": "idle_inject/0",
+        "processId": 16,
+        "status": "Running"
+      },
+      {
+        "name": "cpuhp/0",
+        "processId": 18,
+        "status": "Running"
+      },
+      {
+        "name": "kdevtmpfs",
+        "processId": 19,
+        "status": "Running"
+      },
+      {
+        "name": "inet_frag_wq",
+        "processId": 20,
+        "status": "Running"
+      },
+      {
+        "name": "kauditd",
+        "processId": 21,
+        "status": "Running"
+      },
+      {
+        "name": "khungtaskd",
+        "processId": 22,
+        "status": "Running"
+      },
+      {
+        "name": "oom_reaper",
+        "processId": 23,
+        "status": "Running"
+      },
+      {
+        "name": "writeback",
+        "processId": 24,
+        "status": "Running"
+      },
+      {
+        "name": "kcompactd0",
+        "processId": 25,
+        "status": "Running"
+      },
+      {
+        "name": "ksmd",
+        "processId": 26,
+        "status": "Running"
+      },
+      {
+        "name": "khugepaged",
+        "processId": 27,
+        "status": "Running"
+      },
+      {
+        "name": "kintegrityd",
+        "processId": 73,
+        "status": "Running"
+      },
+      {
+        "name": "kblockd",
+        "processId": 74,
+        "status": "Running"
+      },
+      {
+        "name": "blkcg_punt_bio",
+        "processId": 75,
+        "status": "Running"
+      },
+      {
+        "name": "tpm_dev_wq",
+        "processId": 76,
+        "status": "Running"
+      },
+      {
+        "name": "ata_sff",
+        "processId": 77,
+        "status": "Running"
+      },
+      {
+        "name": "md",
+        "processId": 78,
+        "status": "Running"
+      },
+      {
+        "name": "edac-poller",
+        "processId": 79,
+        "status": "Running"
+      },
+      {
+        "name": "devfreq_wq",
+        "processId": 80,
+        "status": "Running"
+      },
+      {
+        "name": "watchdogd",
+        "processId": 81,
+        "status": "Running"
+      },
+      {
+        "name": "kworker/0:1H-kb",
+        "processId": 83,
+        "status": "Running"
+      },
+      {
+        "name": "kswapd0",
+        "processId": 85,
+        "status": "Running"
+      },
+      {
+        "name": "ecryptfs-kthrea",
+        "processId": 86,
+        "status": "Running"
+      },
+      {
+        "name": "kthrotld",
+        "processId": 88,
+        "status": "Running"
+      },
+      {
+        "name": "acpi_thermal_pm",
+        "processId": 89,
+        "status": "Running"
+      },
+      {
+        "name": "scsi_eh_0",
+        "processId": 91,
+        "status": "Running"
+      },
+      {
+        "name": "scsi_tmf_0",
+        "processId": 92,
+        "status": "Running"
+      },
+      {
+        "name": "scsi_eh_1",
+        "processId": 93,
+        "status": "Running"
+      },
+      {
+        "name": "scsi_tmf_1",
+        "processId": 94,
+        "status": "Running"
+      },
+      {
+        "name": "vfio-irqfd-clea",
+        "processId": 96,
+        "status": "Running"
+      },
+      {
+        "name": "mld",
+        "processId": 98,
+        "status": "Running"
+      },
+      {
+        "name": "ipv6_addrconf",
+        "processId": 99,
+        "status": "Running"
+      },
+      {
+        "name": "kstrp",
+        "processId": 109,
+        "status": "Running"
+      },
+      {
+        "name": "zswap-shrink",
+        "processId": 112,
+        "status": "Running"
+      },
+      {
+        "name": "kworker/u257:0",
+        "processId": 113,
+        "status": "Running"
+      },
+      {
+        "name": "charger_manager",
+        "processId": 118,
+        "status": "Running"
+      },
+      {
+        "name": "hv_vmbus_con",
+        "processId": 153,
+        "status": "Running"
+      },
+      {
+        "name": "hv_pri_chan",
+        "processId": 154,
+        "status": "Running"
+      },
+      {
+        "name": "hv_sub_chan",
+        "processId": 155,
+        "status": "Running"
+      },
+      {
+        "name": "cryptd",
+        "processId": 159,
+        "status": "Running"
+      },
+      {
+        "name": "scsi_eh_2",
+        "processId": 177,
+        "status": "Running"
+      },
+      {
+        "name": "scsi_eh_3",
+        "processId": 178,
+        "status": "Running"
+      },
+      {
+        "name": "scsi_tmf_3",
+        "processId": 179,
+        "status": "Running"
+      },
+      {
+        "name": "scsi_tmf_2",
+        "processId": 180,
+        "status": "Running"
+      },
+      {
+        "name": "kdmflush",
+        "processId": 231,
+        "status": "Running"
+      },
+      {
+        "name": "raid5wq",
+        "processId": 259,
+        "status": "Running"
+      },
+      {
+        "name": "jbd2/dm-0-8",
+        "processId": 307,
+        "status": "Running"
+      },
+      {
+        "name": "ext4-rsv-conver",
+        "processId": 308,
+        "status": "Running"
+      },
+      {
+        "name": "kaluad",
+        "processId": 410,
+        "status": "Running"
+      },
+      {
+        "name": "kmpath_rdacd",
+        "processId": 415,
+        "status": "Running"
+      },
+      {
+        "name": "kmpathd",
+        "processId": 417,
+        "status": "Running"
+      },
+      {
+        "name": "kmpath_handlerd",
+        "processId": 418,
+        "status": "Running"
+      },
+      {
+        "name": "hv_balloon",
+        "processId": 448,
+        "status": "Running"
+      },
+      {
+        "name": "nfit",
+        "processId": 475,
+        "status": "Running"
+      },
+      {
+        "name": "jbd2/sda2-8",
+        "processId": 570,
+        "status": "Running"
+      },
+      {
+        "name": "ext4-rsv-conver",
+        "processId": 571,
+        "status": "Running"
+      },
+      {
+        "name": "kworker/0:0-cgr",
+        "processId": 182620,
+        "status": "Running"
+      },
+      {
+        "name": "kworker/u256:3-",
+        "processId": 189226,
+        "status": "Running"
+      },
+      {
+        "name": "kworker/0:1-eve",
+        "processId": 189359,
+        "status": "Running"
+      },
+      {
+        "name": "kworker/u256:2-",
+        "processId": 189767,
+        "status": "Running"
+      },
+      {
+        "name": "kworker/u256:0-",
+        "processId": 189776,
+        "status": "Running"
+      }
+    ]
+  },
+  "customerInfo": {
+    "customerId": "CUST12345",
+    "customerName": "TechCorp Ltd.",
+    "customerLicenseType": "Enterprise",
+    "group": {
+      "groupId": "GRP98765",
+      "groupName": "IT Department",
+      "agentAddedToGroupOn": "2024-01-01T12:00:00Z"
+    }
+  },
+  "status": "Active"
+}

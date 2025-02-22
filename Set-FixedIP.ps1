@@ -24,7 +24,7 @@ Write-Log "Script started"
 
 # Define network settings
 $IPPrefix = "172.25.1"
-$LastOctet = Read-Host "Enter the last octet for the static IP ( $IPPrefix. )"
+$LastOctet = Read-Host "Static IP ( $IPPrefix. )"
 
 if ($LastOctet -match "^\d{1,3}$" -and [int]$LastOctet -ge 1 -and [int]$LastOctet -le 254) {
     $DesiredIP = "$IPPrefix.$LastOctet"
