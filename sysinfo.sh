@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if ! command -v jq &> /dev/null; then
-    echo "jq is not installed. Installing silently..."
+    echo "jq is not installed. Installing silent mode..."
     sudo DEBIAN_FRONTEND=noninteractive apt-get update -yq && sudo DEBIAN_FRONTEND=noninteractive apt-get install -yq jq
 fi
 
